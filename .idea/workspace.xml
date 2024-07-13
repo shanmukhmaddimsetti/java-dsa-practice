@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1204ceb-8afe-41c8-9f19-540294d8afd0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SingleLinkedList/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingleLinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleLinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingleLinkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleLinkedList/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/JAVA/DSA-JAVA",
     "onboarding.tips.debug.path": "D:/JAVA/JAVA-DSA-PRACTICE/src/Main.java"
   }
 }]]></component>
