@@ -83,7 +83,46 @@ public class LinkedList {
             count++;
             temp = temp.next;
         }
+        Node deletedNode = temp.next;
+        if (temp == null){
+            return;
+        }
+        if(temp.next.next.next == null){
+            return;
+        }
         temp.next = temp.next.next;
+    }
+
+    void removeConsecutiveDuplicates(){
+        Node temp = head;
+        Node current = head;
+        while (current != null){
+            while (current != null && current.data == temp.data){
+                current = current.next;
+            }
+            temp.next = current;
+            temp = current;
+        }
+
+    }
+
+    void reverseLinkedList(){
+        Node prev = null;
+        Node current = head;
+        Node nextNode = null;
+        while(current != null){
+            nextNode = current.next;
+            current.next = prev;
+            prev = current;
+            current = nextNode;
+        }
+        if (current == null){
+            head = prev;
+        }
+    }
+
+    void findMidOfLinkedList(){
+
     }
 
     void printLinkedList(){

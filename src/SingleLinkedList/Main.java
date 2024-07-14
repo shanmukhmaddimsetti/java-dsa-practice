@@ -11,6 +11,9 @@ public class Main {
             System.out.println("3. Print the Single Linked List: ");
             System.out.println("4. Insert at specific position: ");
             System.out.println("5. Delete at position: ");
+            System.out.println("6. Remove Consecutive Duplicates from the Linked List: ");
+            System.out.println("7. Reverse the Linked List: ");
+            System.out.println("8. Find Middle element of Linked List");
             System.out.println("Enter your choice: ");
             int ch = sc.nextInt();
             switch (ch){
@@ -39,6 +42,26 @@ public class Main {
                     System.out.println("Deleting at position: ");
                     int position = sc.nextInt();
                     list.deleteAtPosition(position);
+                    break;
+                case 6:
+                    System.out.println("Removing the consecutive duplicates: ");
+                    System.out.println("Linked List before removing duplicates: ");
+                    list.printLinkedList();
+                    System.out.println("Linked List after removing duplicates: ");
+                    list.removeConsecutiveDuplicates();
+                    list.printLinkedList();
+                    break;
+                case 7:
+                    System.out.println("Reversing the Linked List: ");
+                    System.out.println("Linked List before reversal: ");
+                    list.printLinkedList();
+                    System.out.println("Linked List after reversal: ");
+                    list.reverseLinkedList();
+                    list.printLinkedList();
+                    break;
+                case 8:
+                    System.out.println("Middle element of Linked List is: ");
+                    list.findMidOfLinkedList();
                     break;
                 default:
                     System.exit(0);
