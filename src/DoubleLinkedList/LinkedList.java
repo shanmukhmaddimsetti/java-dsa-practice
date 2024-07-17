@@ -16,6 +16,10 @@ public class LinkedList {
         }
     }
 
+    public void insertNodeAtPosition(int data, int pos){
+        int count = 1;
+    }
+
     public void printLinkedList(){
         Node temp = head;
         while (temp != null){
